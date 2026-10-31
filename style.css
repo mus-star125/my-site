@@ -1,13 +1,40 @@
-background{ 
-#f8f3ed;
-color: #51434d;
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: ##f8edf2;
+  color: #f5eedc;
 }
+
 main {
-background: #fffdfb;
-border: 2px solid #eadde4;
+  max-width: 32rem;
+  padding: 2.5rem;
+  background: #1e1c19;
+  border: 2px solid #38332c;
+  border-radius: 8px;
 }
- links *{
-color: #b77e99;
+
+h1 {
+  font-size: 2rem;
+  margin: 0 0 0.75rem;
 }
- link hover {
-color: #94647e;}
+
+a {
+  color: #e5a93c;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
