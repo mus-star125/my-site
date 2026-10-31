@@ -1,1 +1,75 @@
+```css
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #f8f3ed;
+  color: #51434d;
+}
 
+main {
+  position: relative;
+  max-width: 32rem;
+  padding: 2.5rem;
+  background: #fffdfb;
+  border: 1px solid #eadde4;
+  border-radius: 24px;
+  box-shadow: 0 12px 40px rgba(130, 99, 117, 0.10);
+}
+
+main::before {
+  content: "✧";
+  position: absolute;
+  top: 15px;
+  right: 22px;
+  color: #d9a8bd;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-size: 2.3rem;
+  font-weight: 500;
+  letter-spacing: -1px;
+  color: #b77e99;
+  margin: 0 0 0.75rem;
+}
+
+p {
+  line-height: 1.7;
+  color: #81717b;
+}
+
+a {
+  color: #b77e99;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #8e607b;
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+li {
+  background: #f8edf2;
+  padding: 0.6rem 1rem;
+  border-radius: 30px;
+}
+
+li a {
+  font-size: 0.9rem;
+}
+```
